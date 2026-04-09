@@ -1,6 +1,6 @@
+require('dotenv').config(); // ← PRIMERA LÍNEA
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
 
 // IMPORTANTE: Solo importas el Router Maestro
 const masterRouter = require('./modules/index');
