@@ -1,5 +1,5 @@
 // CORREGIDO: Le cambiamos el nombre a viviendaService
-const viviendaService = require('../../services/vivienda/villaMarianaService');
+const viviendaService = require('./villaMarianaService');
 
 const getBeneficiariosVillamariana = async (req, res) => {
   try {

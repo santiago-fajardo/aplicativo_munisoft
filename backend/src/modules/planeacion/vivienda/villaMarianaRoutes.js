@@ -2,7 +2,7 @@ const { Router } = require('express');
 const router = Router();
 
 // Importamos el controlador
-const { getBeneficiariosVillamariana } = require('../controllers/vivienda/villaMarianaController');
+const { getBeneficiariosVillamariana } = require('./villaMarianaController');
 
 // Definimos la ruta. 
 // Como en el índice general le pondremos el prefijo '/vivienda', 

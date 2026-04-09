@@ -3,8 +3,8 @@ const { Router } = require('express');
 const router = Router();
 
 // Importamos los controladores que hemos creado
-const { getPredios } = require('../controllers/catastro/prediosController');
-const { getPrediosPagos2025 } = require('../controllers/catastro/prediosPagos2025Controller'); // <-- NUEVO IMPORT
+const { getPredios } = require('./prediosController');
+const { getPrediosPagos2025 } = require('./prediosPagos2025Controller'); // <-- NUEVO IMPORT
 
 // Definimos las rutas finales. 
 // Ojo: Ya no ponemos "/api/catastro" aquí, solo la parte final de la URL

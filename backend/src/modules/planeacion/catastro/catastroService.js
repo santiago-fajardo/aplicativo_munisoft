@@ -1,4 +1,4 @@
-const db = require('../../config/db');
+const db = require('../../../shared/config/db');
 const obtenerPrediosGeoJSON = async () => {
   const query = `
     SELECT jsonb_build_object(

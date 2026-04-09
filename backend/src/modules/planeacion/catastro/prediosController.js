@@ -1,5 +1,5 @@
 // Importamos el servicio (el chef)
-const prediosService = require('../../services/catastro/catastroService');
+const prediosService = require('./catastroService');
 
 const getPredios = async (req, res) => {
   try {

@@ -1,5 +1,5 @@
 // Importamos nuestro nuevo servicio especializado en el cruce de pagos
-const pagos2025Service = require('../../services/catastro/catastroPagos2025Service');
+const pagos2025Service = require('./catastroPagos2025Service');
 
 const getPrediosPagos2025 = async (req, res) => {
   try {
